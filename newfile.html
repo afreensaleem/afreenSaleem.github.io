@@ -1,0 +1,205 @@
+<html>
+<head>
+ <title> our anniversary </title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+
+<style>
+
+ #img1{
+     z-index:1;
+   }
+   #img2{
+     z-index:3;
+     height:370px;
+     width:290px;
+     animation: fade-in 2s;
+     
+   }
+#img1{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:200px;
+      height:270px;
+    transform: translate(-50%, -50%) scale(0.8);
+    border:3px solid #fff;
+   opacity:88%;
+   
+   }
+  
+ .frame{
+      position:absolute;
+       left:50%;
+      top:50%;
+      transform: translate(-45%, -03%);
+      width:180px;
+      height:250px;
+      background: #d4d7dd;
+      border : 30px solid #fff;
+      box-shadow: 0 0 21px 3px rgba(0, 0, 0, 0.5) insert, 0 15px 54px 10px rgba(0, 0, 0, 0.3);
+      padding:16px;
+      border-radius: 12px;
+      transform: rotate(7deg);
+      animation: fade-down 0.8s;
+      z-index:4;
+
+   }
+
+
+
+/* KEYFRAMES */
+ @keyframes fade-up {
+ 
+ 0%{
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+
+
+ }
+100%{
+   opacity :1;
+   transform: translateY(0px) scale(1);
+ 
+ }
+}
+
+
+@keyframes fade-down {
+ 
+ 0%{
+    opacity: 0;
+    transform: rotate(0deg) scale(0.9);
+    
+
+ }
+100%{
+   opacity :1;
+   transform: rotate(7deg) scale(1);
+ 
+ }
+}
+
+@keyframes fade-in{
+ 
+ 0%{
+    opacity: 0;
+    height:320px;
+    width:150px;
+    
+
+ }
+100%{
+   opacity :1;
+   height:370px;
+   width:290px;  
+ 
+ }
+}
+
+h1{
+  animation: fade-up 2s;
+}
+
+section{
+position:relative;
+height:300px;
+width:100%;
+
+text-align: center;
+ color:f08080;
+padding:20px;
+background-color:ffc2d1;
+box-shadow:0 5px 15px rgba(0, 0, 0, 0.1);
+animation: fade-up 0.8s;
+}
+body{
+  position:relative;
+
+}
+   
+   
+
+
+  
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.playwrite-us-trad-cursive {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.view{
+  display:inline-flex;
+  flex-wrap: wrap;
+  margin:80px;
+   padding:30px;
+   justify-content: space-between;
+}
+
+.block{
+
+ border:3px solid #fff;
+ height: 200px ;
+ width: 300px;
+ background-color: ffe5ec;
+  border-radius: 12px;
+
+
+
+}
+
+
+
+</style>
+
+ </head>
+ <body style='background-color:e3d5ca';>
+
+ <section id='top'>
+  <h1 class='anton-sc-regular'>Hello Hubby </h1>
+ <h2 class='playwrite-us-trad-cursive'>My beloved ..the love of my life <h2> 
+  <div class="frame">
+  <img id="img1" src="we.jpeg"/ alt="we">
+  </div>
+
+ </section> 
+
+<div id="flower">
+<img id="img2" src="flowers.png" alt="flowers"/>
+</div>
+
+<div class="view">
+
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+
+</div>
+
+
+</body>
+</html>
